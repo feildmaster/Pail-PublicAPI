@@ -13,12 +13,14 @@ import org.bukkit.plugin.java.JavaPlugin;
  *
  * @author Feildmaster
  * @author escapeNT (original API)
- * @version 0.7.1
+ * @version 0.7.3
  */
 public abstract class Pail extends JavaPlugin {
     // Public Variables
-    public static final String PLUGIN_VERSION = "0.7.1";
     public final Image PAIL_ICON = null;
+    public static String PLUGIN_NAME;
+    public static String PLUGIN_THREAD;
+    public static String PLUGIN_VERSION;
 
     // Public API
     /**
